@@ -32,6 +32,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [AutoGluon](https://autogluon.mxnet.io/)
 - [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
+- [aw_nas](https://github.com/walkerning/aw_nas)
 
 ## Deep Learning-based NAS and HPO
 
@@ -44,6 +45,19 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
+| [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
+| [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
+| [BigNAS: Scaling Up Neural Architecture Search with Big Single-Stage Models](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520681.pdf) | ECCV | G | - |
+| [BATS: Binary ArchitecTure Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680307.pdf) | ECCV | - | - |
+| [AttentionNAS: Spatiotemporal Attention Cell Search for Video Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530443.pdf) | ECCV | - | - |
+| [Search What You Want: Barrier Panelty NAS for Mixed Precision Quantization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540001.pdf) | ECCV | - | - |
+| [Angle-based Search Space Shrinking for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630426.pdf) | ECCV | - | - |
+| [Anti-Bandit Neural Architecture Search for Model Defense](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580069.pdf) | ECCV | - | - |
+| [TF-NAS: Rethinking Three Search Freedoms of Latency-Constrained Differentiable Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600120.pdf) | ECCV | G | [GitHub](https://github.com/AberHu/TF-NAS) |
+| [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600460.pdf) | ECCV | G | [GitHub](https://github.com/xiaomi-automl/FairDARTS) |
+| [Off-Policy Reinforcement Learning for Efficient and Effective GAN Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520171.pdf) | ECCV | RL | - |
+| [DA-NAS: Data Adapted Pruning for Efficient Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720579.pdf) | ECCV | G | - |
 | [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | AISTATS | G | - |
 | [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | EA | - |
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
@@ -63,7 +77,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Densely Connected Search Space for More Flexible Neural Architecture Search](https://arxiv.org/abs/1906.09607) | CVPR | G | [Github](https://github.com/JaminFong/DenseNAS) |
 | [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070) | CVPR | RL | - |
 | [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | - | [Github](https://github.com/D-X-Y/AutoDL-Projects) |
-| [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [GitHub](https://github.com/automl/RobustDARTS) |
+| [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/forum?id=BJxH22EKPS) | ICLR | G | [GitHub](https://github.com/shuyao95/Understanding-NAS) |
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR | - | |
 | [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) | ICLR | | [GitHub](https://github.com/meijieru/AtomNAS) |
 | [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) | ICLR | - | [GitHub](https://github.com/JaminFong/FNA) |
@@ -193,5 +207,6 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 |
 | [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 |
+| [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 |
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 |
 | [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 |
