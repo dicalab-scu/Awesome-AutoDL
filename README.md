@@ -25,14 +25,17 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [What’s the deal with Neural Architecture Search?](https://determined.ai/blog/neural-architecture-search/)
 - [Google Could AutoML](https://cloud.google.com/vision/automl/docs/beginners-guide) and [PocketFlow](https://pocketflow.github.io/)
 - [AutoML Challenge](http://automl.chalearn.org/) and [AutoDL Challenge](https://autodl.chalearn.org/)
+- [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
 ## Awesome AutoDL Libraies
+- PyGlove
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
 - [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
 - [AutoDL-Projects](https://github.com/D-X-Y/AutoDL-Projects)
 - [aw_nas](https://github.com/walkerning/aw_nas)
+- [Determined](https://github.com/determined-ai/determined)
 
 ## Deep Learning-based NAS and HPO
 
@@ -45,6 +48,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| PyGlove: Symbolic Programming for Automated Machine Learning | NeurIPS | library | - |
+| [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
+| [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
 | [Single Path One-Shot Neural Architecture Search with Uniform Sampling](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123610528.pdf) | ECCV | EA | - |
 | [Neural Predictor for Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740647.pdf) | ECCV | O | - |
@@ -63,7 +69,9 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
-| [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) | 
+| [UNAS: Differentiable Architecture Search Meets Reinforcement Learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vahdat_UNAS_Differentiable_Architecture_Search_Meets_Reinforcement_Learning_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/NVlabs/unas) |
+| [MiLeNAS: Efficient Neural Architecture Search via Mixed-Level Reformulation](https://arxiv.org/pdf/2003.12238.pdf) | CVPR | G | [GitHub](https://github.com/chaoyanghe/MiLeNAS) |
+| [A Semi-Supervised Assessor of Neural Architectures](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf) | CVPR | PD | - |
 | [Binarizing MobileNet via Evolution-based Searching](https://arxiv.org/abs/2005.06305) | CVPR | EA | - |
 | [Rethinking Performance Estimation in Neural Architecture Search](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Rethinking_Performance_Estimation_in_Neural_Architecture_Search_CVPR_2020_paper.pdf) | CVPR | - | [GitHub](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS) |
 | [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf) | CVPR | G | [GitHub](https://github.com/mit-han-lab/apq) |
@@ -202,11 +210,13 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 ## Awesome Surveys
 
-|  Title  |   Venue  |   Year   |
-|:--------|:--------:|:--------:|
-| [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 |
-| [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 |
-| [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 |
-| [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 |
-| [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 |
-| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 |
+|  Title  |   Venue  |   Year   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 | - |
+| [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 | - |
+| [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 | - |
+| [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 | - |
+| [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
+| [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/pdf/2006.02903.pdf) | arXiv | 2020 | - |
+| [On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://arxiv.org/pdf/2007.15745.pdf) | Neurocomputing | 2020 |[github](https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms) |
+
