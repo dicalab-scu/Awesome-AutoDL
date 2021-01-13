@@ -28,7 +28,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 - [In Defense of Weight-sharing for Neural Architecture Search: an optimization perspective](https://determined.ai/blog/ws-optimization-for-nas/)
 
 ## Awesome AutoDL Libraies
-- PyGlove
+- [PyGlove](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf)
 - [Keras Tuner](https://keras-team.github.io/keras-tuner/)
 - [NNI](https://github.com/microsoft/nni)
 - [AutoGluon](https://autogluon.mxnet.io/)
@@ -48,7 +48,16 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| PyGlove: Symbolic Programming for Automated Machine Learning | NeurIPS | library | - |
+| [Cream of the Crop: Distilling Prioritized Paths For One-Shot Neural Architecture Search](https://papers.nips.cc/paper/2020/file/d072677d210ac4c03ba046120f0802ec-Paper.pdf) | NeurIPS | - | [GitHub](https://github.com/microsoft/Cream) |
+| [PyGlove: Symbolic Programming for Automated Machine Learning](https://proceedings.neurips.cc/paper/2020/file/012a91467f210472fab4e11359bbfef6-Paper.pdf) | NeurIPS | library | - |
+| [Does Unsupervised Architecture Representation Learning Help Neural Architecture Search](https://arxiv.org/abs/2006.06936) | NeurIPS | PD | [GitHub](https://github.com/MSU-MLSys-Lab/arch2vec) |
+| [RandAugment: Practical Automated Data Augmentation with a Reduced Search Space](https://arxiv.org/abs/1909.13719) | NeurIPS | | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet) |
+| [Delta-STN: Efficient Bilevel Optimization for Neural Networks using Structured Response Jacobians](https://arxiv.org/pdf/2010.13514.pdf) | NeurIPS | G | [GitHub](https://github.com/pomonam/Self-Tuning-Networks) |
+| [A Study on Encodings for Neural Architecture Search](https://arxiv.org/abs/2007.04965) | NeurIPS | | [GitHub](https://github.com/naszilla/naszilla) |
+| [AutoBSS: An Efficient Algorithm for Block Stacking Style Search](https://proceedings.neurips.cc/paper/2020/file/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf) | NeurIPS | | |
+| [Bridging the Gap between Sample-based and One-shot Neural Architecture Search with BONAS](https://proceedings.neurips.cc/paper/2020/file/13d4635deccc230c944e4ff6e03404b5-Paper.pdf) | NeurIPS | G | [GitHub](https://github.com/haolibai/APS-channel-search) |
+| [Interstellar: Searching Recurrent Architecture for Knowledge Graph Embedding](https://proceedings.neurips.cc/paper/2020/file/722caafb4825ef5d8670710fa29087cf-Paper.pdf) | NeurIPS | | |
+| [Revisiting Parameter Sharing for Automatic Neural Channel Number Search](https://proceedings.neurips.cc/paper/2020/file/42cd63cb189c30ed03e42ce2c069566c-Paper.pdf) | NeurIPS | | |
 | [Learning Search Space Partition for Black-box Optimization using Monte Carlo Tree Search](https://arxiv.org/pdf/2007.00708.pdf) | NeurIPS | MCTS | [GitHub](https://github.com/facebookresearch/LaMCTS) |
 | [Neural Architecture Search using Deep Neural Networks and Monte Carlo Tree Search](https://arxiv.org/abs/1805.07440) | AAAI | MCTS | [GitHub](https://github.com/linnanwang/AlphaX-NASBench101) |
 | [Are Labels Necessary for Neural Architecture Search?](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490766.pdf) | ECCV | G | - |
@@ -66,6 +75,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 | [DA-NAS: Data Adapted Pruning for Efficient Neural Architecture Search](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123720579.pdf) | ECCV | G | - |
 | [Optimizing Millions of Hyperparameters by Implicit Differentiation](https://arxiv.org/abs/1911.02590) | AISTATS | G | - |
 | [Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384.pdf) | ICML | EA | - |
+| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | ICML | G | [GitHub](https://github.com/xiangning-chen/SmoothDARTS) |
 | [NADS: Neural Architecture Distribution Search for Uncertainty Awareness](https://arxiv.org/pdf/2006.06646.pdf) | ICML | - | - |
 | [Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data](https://arxiv.org/abs/1912.07768) | ICML | - | - |
 | Neural Architecture Search in a Proxy Validation Loss Landscape | ICML | - | - |
@@ -214,6 +224,7 @@ Please feel free to [pull requests](https://github.com/D-X-Y/Awesome-AutoDL/pull
 |:--------|:--------:|:--------:|:--------:|
 | [Automated Machine Learning](https://link.springer.com/book/10.1007/978-3-030-05318-5) | Springer Book | 2019 | - |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | 2019 | - |
+| [AutonoML: Towards an Integrated Framework for Autonomous Machine Learning](https://arxiv.org/pdf/2012.12600.pdf) | arXiv | 2020 | - |
 | [Taking human out of learning applications: A survey on automated machine learning](https://arxiv.org/pdf/1810.13306.pdf) | arXiv | 2018 | - |
 | [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/pdf/1908.00709.pdf) | arXiv | 2019 | - |
 | [A Survey on Neural Architecture Search](https://arxiv.org/pdf/1905.01392.pdf) | arXiv | 2019 | - |
